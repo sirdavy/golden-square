@@ -1,5 +1,6 @@
 require 'counter'
-Rspec.describe Counter do
+
+RSpec.describe Counter do
   it "counts the number you've added" do
     counter = Counter.new
     counter.add(9)
